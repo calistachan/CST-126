@@ -1,24 +1,28 @@
 <?php 
-//Milestone 2, Calista Ahlstrom: 04/25/21
+//Milestone 3, Calista Ahlstrom: 05/02/21
 //Connect to a database and insert user information into it
-//References: Activity 2 Individual Assignment- CST-126, W3Schools, Stack Overflow
+//References: Activity 3 Individual Assignment- CST-126, W3Schools, Stack Overflow
 
-$servername = "localhost";
-$username = "root";
-$password = "root";
-$database = "milestoneproject";
+include 'milestoneMyfuncs.php';
 
-$conn = new mysqli($servername, $username, $password, $database);
+$firstName = $_POST["firstName"];
+$lastName = $_POST["lastName"];
+$email = $_POST["emailAddress"];
+$pass = $_POST["password"];
+
+$conn = dbConnect();
 
 $sql = "INSERT INTO users (FIRST_NAME, LAST_NAME, EMAIL_ADDRESS, PASSWORD)
-VALUES ('" . $_POST["firstName"] . "', '" . $_POST["lastName"] . "'
-        , '" . $_POST["emailAddress"] . "', '" . $_POST["password"] . "')";
+VALUES ('" . $firstName . "', '" . $lastName . "'
+        , '" . $email . "', '" . $pass . "')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Hello " . $_POST["firstName"] . " " . $_POST["lastName"]
+    echo "Hello " . $firstName . " " . $lastName
          . "! " . "Thank you for registering!";
+    echo '<br><a href="index.html">Back to Main Menu</a>';
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
+    echo '<br><a href="milestoneRegister.html">Try Again</a>';
 }
 
 $conn->close();
