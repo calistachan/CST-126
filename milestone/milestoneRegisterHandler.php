@@ -19,7 +19,7 @@ VALUES ('" . $firstName . "', '" . $lastName . "'
 if ($conn->query($sql) === TRUE) {
     echo "Hello " . $firstName . " " . $lastName
          . "! " . "Thank you for registering!";
-    echo '<br><a href="index.html">Back to Main Menu</a>';
+    echo '<br><a href="milestoneIndex.html">Back to Main Menu</a>';
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
     echo '<br><a href="milestoneRegister.html">Try Again</a>';
