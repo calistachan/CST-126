@@ -1,5 +1,5 @@
 <?php 
-//Milestone 5, Calista Ahlstrom: 05/19/21
+//Milestone 6, Calista Ahlstrom: 05/19/21
 //Connect to a database and insert user information into it
 //References: Activity 5 Individual Assignment- CST-126, W3Schools, Stack Overflow
 
