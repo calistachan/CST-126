@@ -1,7 +1,7 @@
 <?php 
-//Milestone 6, Calista Ahlstrom: 05/19/21
+//Milestone 7, Calista Ahlstrom: 05/25/21
 //Connect to a database and insert user information into it
-//References: Activity 5 Individual Assignment- CST-126, W3Schools, Stack Overflow
+//References: Activity 6 Individual Assignment- CST-126, W3Schools, Stack Overflow
 
 include 'milestoneMyfuncs.php';
 
