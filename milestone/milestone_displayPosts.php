@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Milestone 7, Calista Ahlstrom: 05/25/21 -->
+<!-- Milestone 8, Calista Ahlstrom: 05/27/21 -->
 <!-- Script that allows the user to view the posts they searched for in a table. -->
 <!-- References: Activity 6 Individual Assignment- CST-126, W3Schools, Stack Overflow -->
 <html>

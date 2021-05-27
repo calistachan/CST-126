@@ -1,6 +1,6 @@
 <?php
-//Milestone 7, Calista Ahlstrom: 05/25/21
-//Connect to the posts database table and generates ALL posts for the Admin
+//Milestone 8, Calista Ahlstrom: 05/27/21
+//Connect to the posts database table and generates all posts for the Admin
 //References: Activity 6 Individual Assignment- CST-126, W3Schools, Stack Overflow
 
 
@@ -26,7 +26,7 @@ $sql = mysqli_query($conn, $query);
 foreach ($sql as $post) {
     echo "<h2>" . $post["EMAIL_ADDRESS"] . "</h2>";
     echo "<h3>" . $post["TITLE"] . "</h3>";
-    echo "<p>" . $post["CONTENT"] . "</p>";
+    echo "<p>" . $post["CONTENT"] . "</p>" . "<br><br>";
 }
 
 echo '<br><a href="index.html">Log Out</a>';

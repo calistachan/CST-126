@@ -1,6 +1,6 @@
 <?php
 
-//Milestone 7, Calista Ahlstrom: 05/25/21
+//Milestone 8, Calista Ahlstrom: 05/27/21
 //A PHP file with reusable functions
 //References: Activity 6 Individual Assignment- CST-126, W3Schools, Stack Overflow
 

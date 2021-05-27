@@ -1,5 +1,5 @@
 <?php
-//Milestone 7, Calista Ahlstrom: 05/25/21
+//Milestone 8, Calista Ahlstrom: 05/27/21
 //Connects to database and deletes selected row from posts table
 //References: Activity 6 Individual Assignment- CST-126, W3Schools, Stack Overflow
 
